@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import StyledDiv from "./App.css.js";
 import Header from './components/Header/Header';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <StyledDiv>
         <Header />
-      </div>
+      </StyledDiv>
     );
   }
 }
